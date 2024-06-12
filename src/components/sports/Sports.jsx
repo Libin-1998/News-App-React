@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import "./Sports.css"
 import axios from 'axios'
+import { API_KEY } from '../../constants'
 
 export default function Sports() {
 
     const[sports,Setsports]=useState([])
 
     useEffect(()=>{
-        axios.get('https://gnews.io/api/v4/top-headlines?category=sports&lang=en&apikey=16b68d66d05960a017a25800790ec6e2')
+        axios.get(`https://gnews.io/api/v4/top-headlines?category=sports&lang=en&apikey=${API_KEY}`)
         .then((response)=>{
             console.log(response.data.response);
             Setsports(response.data.articles)

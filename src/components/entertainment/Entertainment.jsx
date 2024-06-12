@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Entertainment.css'
 import axios from 'axios'
+import { API_KEY } from '../../constants'
 
 
 export default function Entertainment() {
@@ -8,7 +9,7 @@ export default function Entertainment() {
     const[list,Setlist]=useState([])
 
     useEffect(()=>{
-        axios.get('https://gnews.io/api/v4/top-headlines?category=entertainment&lang=en&apikey=16b68d66d05960a017a25800790ec6e2')
+        axios.get(`https://gnews.io/api/v4/top-headlines?category=entertainment&lang=en&apikey=${API_KEY}`)
         .then((response)=>{
             console.log(response.data.response);
             Setlist(response.data.articles)

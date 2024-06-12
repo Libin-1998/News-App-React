@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Health.css'
 import axios from 'axios'
+import { API_KEY } from '../../constants'
 
 
 export default function Health() {
@@ -9,7 +10,7 @@ export default function Health() {
     const[events,Setevents]=useState([])
 
     useEffect(()=>{
-        axios.get('https://gnews.io/api/v4/top-headlines?category=health&lang=en&apikey=16b68d66d05960a017a25800790ec6e2')
+        axios.get(`https://gnews.io/api/v4/top-headlines?category=health&lang=en&apikey=${API_KEY}`)
         .then((response)=>{
             console.log(response);
             Setevents(response.data.articles)
@@ -24,12 +25,13 @@ export default function Health() {
     const options = { weekday: 'long', day: 'numeric', month: 'long',  };
     const formattedDate = date.toLocaleDateString('en-GB', options);
     console.log(formattedDate);
+    
 
   return (
     <>
 
 <div className='container-fluid health'>
-        <h1 className='healthhead'>Health</h1>
+        <h1 className='healthhead'>Health News</h1>
         <p className='healthpara'>{formattedDate}</p>
 
         <div className='healthrow'>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Technology.css'
 import axios from 'axios'
+import { API_KEY } from '../../constants'
 
 
 export default function Technology() {
@@ -8,7 +9,7 @@ export default function Technology() {
     const[list,Setlist]=useState([])
 
     useEffect(()=>{
-        axios.get('https://gnews.io/api/v4/top-headlines?category=technology&lang=en&apikey=16b68d66d05960a017a25800790ec6e2')
+        axios.get(`https://gnews.io/api/v4/top-headlines?category=technology&lang=en&apikey=${API_KEY}`)
         .then((response)=>{
             console.log(response.data.response);
             Setlist(response.data.articles)

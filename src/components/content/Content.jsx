@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import './Content.css'
 import axios from 'axios'
+import { API_KEY } from '../../constants'
 
 export default function Content() {
 
     const[news,Setnews]=useState([])
 
     useEffect(()=>{
-        axios.get('https://gnews.io/api/v4/search?q=example&apikey=16b68d66d05960a017a25800790ec6e2 ')
+        axios.get(`https://gnews.io/api/v4/search?q=example&apikey=${API_KEY} `)
         .then((response)=>{
             console.log(response);
             Setnews(response.data.articles)
@@ -55,21 +56,7 @@ console.log(formattedDate);
 ))}
 </div>
 
-  <div className='firstrows'>
-    <div className='onecolumn'>
-<img src="/newsimg.jpg" alt="" className='imgnews' onError={(event)=>event.target.src='/images/newsimage1.jpg'}/>
-
-    <div className='insidecolumn'>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit consequatur doloribus amet reiciendis quas. Beatae, pariatur ab modi ullam aliquid molestias provident. Autem odio quia ex officia aut dolores quidem.
-    </div>
-    </div>
-
-      <div className='twocolumn'>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut rem in pariatur voluptate doloremque tempora odit illo explicabo consequatur?
-      </div>
-      </div>
-
-  </div>  
+</div>  
     </>
   )
 }

@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import './Business.css'
 import axios from 'axios'
+import { API_KEY } from '../../constants'
 
 export default function Business() {
 
     const[list,Setlist]=useState([])
     useEffect(()=>{
 
-    axios.get('https://gnews.io/api/v4/top-headlines?category=business&lang=en&apikey=16b68d66d05960a017a25800790ec6e2')
+    axios.get(`https://gnews.io/api/v4/top-headlines?category=business&lang=en&apikey=${API_KEY}`)
     .then((response)=>{
         console.log(response);
         Setlist(response.data.articles)
