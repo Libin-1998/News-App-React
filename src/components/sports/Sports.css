@@ -1,0 +1,49 @@
+.shead{
+    padding: 20px;
+}
+.sportsdate{
+    padding: 20px;
+    font-size: xx-large;
+    text-shadow: 2px 2px black;
+}
+.sportsrow{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+
+}
+.sportscol{
+    width: 391px;
+    background-color: rgba(247, 246, 239, 0.868);
+    border: solid 1px;
+    box-shadow: thistle;
+    border-radius: 15px;
+}
+.sportsimg{
+    width: 391px;
+    border-radius: 15px 15px 0px 0px;
+    height: 260px;
+}
+.linksports{
+    text-decoration: none;
+    color: black;
+
+}
+.stitle{
+    padding: 10px;
+}
+.sourcename{
+    padding: 10px;
+    color: gray;
+
+}
+.publish{
+    padding: 10px;
+    color: rgb(79, 68, 68);
+
+}
+
+.byspan{
+    font-size: medium;
+    color: grey;
+}

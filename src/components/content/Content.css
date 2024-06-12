@@ -1,0 +1,98 @@
+.paradate{
+    font-size: xx-large;
+    font-weight: 900;
+    text-shadow: 2px 2px goldenrod;
+
+}
+
+.newscard{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+
+}
+
+.newsimg{
+    width: 391px;
+}
+.firstcard{
+    width: 391px;
+    background-color:rgb(234, 224, 224);
+
+}
+.titlefont{
+    padding: 10px;
+}
+.sourcefont{
+    padding: 10px;
+    color: darkslategrey;
+}
+.newsdate{
+    padding: 10px;
+    color: rgb(146, 144, 144);
+}
+.contentfont{
+    padding: 10px;
+}
+
+.titlelink{
+    text-decoration: none;
+    color: black;
+}
+.byspan{
+    font-size: medium;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headnews{
+    flex: none;
+}
+
+.firstrows{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+
+}
+.onecolumn{
+    width: 850px;
+    display: flex;
+    background-color: rgb(244, 242, 226);
+    border-radius: 16px;
+}
+.twocolumn{
+    width: 342px;
+    background-color: rgb(244, 242, 226);
+    padding: 10px;
+    border-radius: 16px;
+
+
+}
+
+
+.imgnews{
+    width: 300px;
+    padding: 10px;
+    border-radius: 16px;
+
+}
+.insidecolumn{
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+.shead{
+    padding:10px ;
+}
+.businesspara{
+    padding: 10px;
+}
+.bsnsrow{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bsnscol{
+    width: 391px;
+    background-color: beige;
+    border: transparent;
+
+}
+.bsnsimg{
+    width: 391px;
+    height: 260px;
+}
+.linkbsns{
+    text-decoration: none;
+    color: black;
+}
+.bsnstitle{
+    padding: 10px;
+}
+.bsnssource{
+    padding: 10px;
+    color: darkslategrey;
+}
+.bsnspublish{
+    padding: 10px;
+    color: dimgray;
+    text-shadow: 2px 2px 2px red;
+}
+.byspan{
+    font-size: medium;
+    color: grey;
+}

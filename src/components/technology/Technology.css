@@ -1,0 +1,51 @@
+.techhead{
+    padding: 20px;
+}
+.techpara{
+    padding: 20px;
+    font-size: xx-large;
+    text-shadow: 2px 2px black;
+}
+.techrow{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    padding-left: 10px;
+
+}
+.techcol{
+    width: 391px;
+    background-color: rgba(247, 246, 239, 0.868);
+    border: solid 1px;
+    box-shadow: thistle;
+    border-radius: 15px;
+}
+.techimg{
+    width: 391px;
+    border-radius: 15px 15px 0px 0px;
+    height: 260px;
+}
+.techurl{
+    text-decoration: none;
+    /* padding: 10px; */
+    color: black;
+
+}
+.techtitle{
+    padding: 10px;
+}
+.techsource{
+    padding: 10px;
+    color: gray;
+
+}
+.techpublish{
+    padding: 10px;
+    color: rgb(79, 68, 68);
+
+}
+
+.byspan{
+    font-size: medium;
+    color: grey;
+}

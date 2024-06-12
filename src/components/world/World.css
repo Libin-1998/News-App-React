@@ -1,0 +1,69 @@
+.worldhead{
+    padding: 20px;
+}
+.worldpara{
+    padding: 20px;
+    font-size: xx-large;
+    text-shadow: 2px 2px black;
+}
+.worldrow{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    padding-left: 10px;
+
+}
+.worldcol{
+    width: 391px;
+    background-color: rgba(247, 246, 239, 0.868);
+    border: solid 1px;
+    box-shadow: thistle;
+    border-radius: 15px;
+}
+.worldimg{
+    width: 391px;
+    border-radius: 15px 15px 0px 0px;
+    height: 260px;
+}
+.worldurl{
+    text-decoration: none;
+    color: black;
+
+}
+.worldtitle{
+    padding: 10px;
+}
+.worldsource{
+    padding: 10px;
+    color: gray;
+
+}
+.worldpublish{
+    padding: 10px;
+    color: rgb(79, 68, 68);
+
+}
+.worldby{
+    font-size: large;
+}
+@media(max-width:812px){
+    .worldcol{
+        width: 250px;
+    }
+    .worldimg{
+        width: 250px;
+        height: 150px;
+    }
+    .worldurl{
+        font-size: medium;
+    }
+    .worldtitle{
+        font-size: medium;
+    }
+    .worldsource{
+        font-size: medium;
+    }
+    .worldpublish{
+        font-size: medium;
+    }
+}

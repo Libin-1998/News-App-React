@@ -1,0 +1,42 @@
+.enthead{
+    padding: 10px;
+}
+.entpara{
+    padding: 10px;
+    font-size: xx-large;
+    text-shadow: 2px 2px red;
+    font-weight: 700;
+}
+.entrow{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.entcol{
+    width: 391px;
+    background-color: wheat;
+
+}
+.entlink{
+    text-decoration: none;
+    color: black;
+}
+.entimg{
+    height: 290px;
+    width: 391px;
+}
+.entsource{
+    padding: 10px;
+    color: rgb(6, 16, 26);
+}
+.entpublish{
+    padding: 10px;
+    color: rgb(31, 4, 4);
+}
+.enttitle{
+    padding: 10px;
+}
+.byspan{
+    font-size: medium;
+    color: grey;
+}

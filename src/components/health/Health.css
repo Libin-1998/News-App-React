@@ -1,0 +1,42 @@
+.healthhead{
+    padding: 10px;
+}
+.healthpara{
+    padding: 10px;
+    font-size: xx-large;
+    text-shadow: 2px 2px red;
+    font-weight: 700;
+}
+.healthrow{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.healthcol{
+    width: 391px;
+    background-color: wheat;
+
+}
+.healthlink{
+    text-decoration: none;
+    color: black;
+}
+.healthimg{
+    height: 290px;
+    width: 391px;
+}
+.healthsource{
+    padding: 10px;
+    color: rgb(6, 16, 26);
+}
+.healthpublish{
+    padding: 10px;
+    color: rgb(31, 4, 4);
+}
+.healthtitle{
+    padding: 10px;
+}
+.byspan{
+    font-size: medium;
+    color: grey;
+}
