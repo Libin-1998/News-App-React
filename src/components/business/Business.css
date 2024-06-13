@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 .bsnscol{
     width: 391px;
@@ -58,9 +59,6 @@
     }
     .bsnspublish{
         font-size: medium;
-    }
-    .businesspara{
-        font-size: larger;
     }
     
 }

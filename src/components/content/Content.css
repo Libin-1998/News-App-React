@@ -9,7 +9,7 @@
 display: flex;
 gap: 20px;
 flex-wrap: wrap;
-
+justify-content: center;
 }
 
 .newsimg{
@@ -66,12 +66,6 @@ flex-wrap: wrap;
     }
     .paradate{
         font-size: larger;
-    }
-}
-
-@media(max-width:544px){
-    .navbar{
-        width: 263px;
     }
 }
 

@@ -1,13 +1,3 @@
 .newslink{
     text-decoration: none;
 }
-@media(max-width:826px){
-    .navbar{
-        width: 405px;
-    }
-}
-@media(max-width:812px){
-    .navbar{
-        width: 533px;
-    }
-}
