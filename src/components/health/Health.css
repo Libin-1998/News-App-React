@@ -1,29 +1,32 @@
 .healthhead{
     padding: 10px;
+    color: white;
 }
 .healthpara{
-    padding: 10px;
     font-size: xx-large;
-    text-shadow: 2px 2px red;
-    font-weight: 700;
+    font-weight: 900;
+    text-shadow: 2px 2px goldenrod;
+    color: white;
 }
 .healthrow{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 .healthcol{
     width: 391px;
     background-color: wheat;
-
+border-radius: 15px;
 }
 .healthlink{
     text-decoration: none;
     color: black;
 }
 .healthimg{
-    height: 290px;
     width: 391px;
+    border-radius: 13px 13px 0px 0px;   
+    height: 260px;
 }
 .healthsource{
     padding: 10px;

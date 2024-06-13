@@ -1,29 +1,32 @@
 .enthead{
     padding: 10px;
+    color: white;
 }
 .entpara{
-    padding: 10px;
     font-size: xx-large;
-    text-shadow: 2px 2px red;
-    font-weight: 700;
+    font-weight: 900;
+    text-shadow: 2px 2px goldenrod;
+    color: white;
 }
 .entrow{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 .entcol{
     width: 391px;
     background-color: wheat;
-
+border-radius: 15px;
 }
 .entlink{
     text-decoration: none;
     color: black;
 }
 .entimg{
-    height: 290px;
     width: 391px;
+    border-radius: 13px 13px 0px 0px;   
+    height: 260px;
 }
 .entsource{
     padding: 10px;

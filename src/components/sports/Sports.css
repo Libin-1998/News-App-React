@@ -1,15 +1,18 @@
 .shead{
     padding: 20px;
+    color: white;
 }
 .sportsdate{
-    padding: 20px;
     font-size: xx-large;
-    text-shadow: 2px 2px black;
+    font-weight: 900;
+    text-shadow: 2px 2px goldenrod;
+    color: white;
 }
 .sportsrow{
     display: flex;
     flex-wrap:wrap;
     gap: 20px;
+    justify-content: center;
 
 }
 .sportscol{
@@ -21,7 +24,7 @@
 }
 .sportsimg{
     width: 391px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 13px 13px 0px 0px;   
     height: 260px;
 }
 .linksports{

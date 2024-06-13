@@ -2,7 +2,7 @@
     font-size: xx-large;
     font-weight: 900;
     text-shadow: 2px 2px goldenrod;
-
+    color: white;
 }
 
 .newscard{
@@ -14,10 +14,13 @@ justify-content: center;
 
 .newsimg{
     width: 391px;
+    border-radius: 13px 13px 0px 0px;   
+    height: 260px;
 }
 .firstcard{
     width: 391px;
     background-color:rgb(234, 224, 224);
+    border-radius: 15px;
 
 }
 .titlefont{

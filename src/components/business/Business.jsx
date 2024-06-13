@@ -27,7 +27,7 @@ console.log(formattedDate);
   return (
     <>
     <div className='container-fluid business'>
-        <h1 className='business head'>Business News</h1>
+        <h1 className='businesshead'>Business News</h1>
        <p className='businesspara'>{formattedDate}</p> 
 
        <div className='bsnsrow'>

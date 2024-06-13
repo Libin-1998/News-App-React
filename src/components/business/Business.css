@@ -1,8 +1,14 @@
-.shead{
+.businesshead{
     padding:10px ;
+    color: white;
 }
+
 .businesspara{
-    padding: 10px;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: 900;
+    text-shadow: 2px 2px goldenrod;
+    color: white;
 }
 .bsnsrow{
     display: flex;
@@ -14,10 +20,12 @@
     width: 391px;
     background-color: beige;
     border: transparent;
+    border-radius: 15px;
 
 }
 .bsnsimg{
     width: 391px;
+    border-radius: 13px 13px 0px 0px;   
     height: 260px;
 }
 .linkbsns{
