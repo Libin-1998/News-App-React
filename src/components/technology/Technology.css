@@ -49,3 +49,24 @@
     font-size: medium;
     color: grey;
 }
+@media(max-width:812px){
+    .techcol{
+        width: 250px;
+    }
+    .techimg{
+        width: 250px;
+        height: 150px;
+    }
+    .techurl{
+        font-size: medium;
+    }
+    .techtitle{
+        font-size: medium;
+    }
+    .techsource{
+        font-size: medium;
+    }
+    .techpublish{
+        font-size: medium;
+    }
+}

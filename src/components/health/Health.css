@@ -40,3 +40,24 @@
     font-size: medium;
     color: grey;
 }
+@media(max-width:812px){
+    .healthcol{
+        width: 250px;
+    }
+    .healthimg{
+        width: 250px;
+        height: 150px;
+    }
+    .healthlink{
+        font-size: medium;
+    }
+    .healthtitle{
+        font-size: medium;
+    }
+    .healthsource{
+        font-size: medium;
+    }
+    .healthpublish{
+        font-size: medium;
+    }
+}

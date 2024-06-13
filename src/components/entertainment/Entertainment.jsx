@@ -38,7 +38,7 @@ export default function Entertainment() {
                 <div className='entcol'>
 
                     <a href={events.source.url} className='entlink' target='_blank'>
-                <img src={''} className='entimg' onError={(event)=>event.target.src='/images/newsimage1.jpg'} />
+                <img src={events.image} className='entimg' onError={(event)=>event.target.src='/images/newsimage1.jpg'} />
                 <h2 className='enttitle'>{events.title}</h2>
                 </a>
 

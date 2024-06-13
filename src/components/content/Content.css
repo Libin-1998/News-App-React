@@ -44,7 +44,36 @@ flex-wrap: wrap;
     color: grey;
 }
 
+@media(max-width:812px){
+    .firstcard{
+        width: 250px;
+    }
+    .newsimg{
+        width: 250px;
+        height: 150px;
+    }
+    .titlelink{
+        font-size: medium;
+    }
+    .titlefont{
+        font-size: medium;
+    }
+    .sourcefont{
+        font-size: medium;
+    }
+    .newsdate{
+        font-size: medium;
+    }
+    .paradate{
+        font-size: larger;
+    }
+}
 
+@media(max-width:544px){
+    .navbar{
+        width: 263px;
+    }
+}
 
 
 

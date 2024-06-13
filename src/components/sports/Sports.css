@@ -47,3 +47,24 @@
     font-size: medium;
     color: grey;
 }
+@media(max-width:812px){
+    .sportscol{
+        width: 250px;
+    }
+    .sportsimg{
+        width: 250px;
+        height: 150px;
+    }
+    .linksports{
+        font-size: medium;
+    }
+    .stitle{
+        font-size: medium;
+    }
+    .sourcename{
+        font-size: medium;
+    }
+    .publish{
+        font-size: medium;
+    }
+}

@@ -39,3 +39,28 @@
     font-size: medium;
     color: grey;
 }
+@media(max-width:812px){
+    .bsnscol{
+        width: 250px;
+    }
+    .bsnsimg{
+        width: 250px;
+        height: 150px;
+    }
+    .linkbsns{
+        font-size: medium;
+    }
+    .bsnstitle{
+        font-size: medium;
+    }
+    .bsnssource{
+        font-size: medium;
+    }
+    .bsnspublish{
+        font-size: medium;
+    }
+    .businesspara{
+        font-size: larger;
+    }
+    
+}

@@ -40,3 +40,25 @@
     font-size: medium;
     color: grey;
 }
+@media(max-width:812px){
+    .entcol{
+        width: 250px;
+    }
+    .entimg{
+        width: 250px;
+        height: 150px;
+    }
+    .entlink{
+        font-size: medium;
+    }
+    .enttitle{
+        font-size: medium;
+    }
+    .entsource{
+        font-size: medium;
+    }
+    .entpublish{
+        font-size: medium;
+    }
+    
+}
