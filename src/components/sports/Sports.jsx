@@ -10,7 +10,7 @@ export default function Sports() {
     useEffect(()=>{
         axios.get(`https://gnews.io/api/v4/top-headlines?category=sports&lang=en&apikey=${API_KEY}`)
         .then((response)=>{
-            console.log(response.data.response);
+            console.log(response);
             Setsports(response.data.articles)
         })
         .catch((error)=>{
